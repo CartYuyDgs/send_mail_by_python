@@ -40,10 +40,11 @@ def get_user_info():
 @发送邮件
 '''
 def sendmail(text,user_mail,passwd,send_mail):
-    # user_mail = "1075479026@qq.com"
-    # #passwd = "yang1994@"
-    # passwd = "uwzhcgusqpzwheff"
-    # send_mail = "yy_dgs@126.com"
+    #此处一是之前调试用的代码，可以忽略
+    # user_mail = "**********@qq.com"
+    # #passwd = "**********"
+    # passwd = "**************"
+    # send_mail = "************"
     smtp_url = "smtp.qq.com"
 
     msg = MIMEText(text,"plain",'utf-8')
